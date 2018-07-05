@@ -1,0 +1,19 @@
+{
+  "getCDO": [
+    { "cdoName": "A", "cdoFields": ["A.1","A.2","A.3"] },
+    { "cdoName": "B", "cdoFields": ["B.1","B.2","B.3"] },
+    { "cdoName": "C", "cdoFields": ["C.1","C.2","C.3"] }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "getMapping" : {
+	"fields": {
+		"key1" : "val1",
+		"key2" : "val2",
+	},
+	"identifierFieldName" : "column_name",
+	"name" : "Name for definition"
+  }
+}
