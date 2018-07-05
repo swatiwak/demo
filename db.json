@@ -11,7 +11,7 @@
   "getMapping" : {
 	"fields": {
 		"key1" : "val1",
-		"key2" : "val2",
+		"key2" : "val2"
 	},
 	"identifierFieldName" : "column_name",
 	"name" : "Name for definition"
