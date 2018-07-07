@@ -16,5 +16,5 @@
 	"identifierFieldName" : "column_name",
 	"name" : "Name for definition"
   },
-  "colors": ['brown','orange','yellow','red','blue']
+  "colors": ["brown","orange","yellow","red","blue"]
 }
