@@ -1,9 +1,43 @@
 {
-  "getCDO": [
-    { "cdoName": "A", "cdoFields": ["A.1","A.2","A.3"] },
-    { "cdoName": "B", "cdoFields": ["B.1","B.2","B.3"] },
-    { "cdoName": "C", "cdoFields": ["C.1","C.2","C.3"] }
-  ],
+  "getCDO": {
+	"items": [{
+			"name": "Oracle Sales Cloud Leads",
+			"displayNameFieldUri": "/customObjects/2/fields/119",
+			"emailAddressFieldUri": "/customObjects/2/fields/117",
+			"uniqueFieldUri": "/customObjects/2/fields/118",
+			"uri": "/customObjects/2",
+			"createdAt": "2014-07-11T17:00:53.2200000Z",
+			"updatedAt": "2014-07-11T17:00:53.2200000Z"
+		},
+		{
+			"name": "Opportunity",
+			"displayNameFieldUri": "/customObjects/5/fields/125",
+			"emailAddressFieldUri": "/customObjects/5/fields/124",
+			"uniqueFieldUri": "/customObjects/5/fields/121",
+			"uri": "/customObjects/5",
+			"createdBy": "EloquaSystem",
+			"createdAt": "2015-10-06T04:04:12.2700000Z",
+			"updatedBy": "EloquaSystem",
+			"updatedAt": "2015-10-06T04:04:13.4330000Z"
+		},
+		{
+			"name": "Cisco Events Manager Users Changed Status",
+			"displayNameFieldUri": "/customObjects/14/fields/191",
+			"emailAddressFieldUri": "/customObjects/14/fields/191",
+			"uniqueFieldUri": "/customObjects/14/fields/191",
+			"uri": "/customObjects/14",
+			"createdBy": "MgrGLOBALEloquaInstance",
+			"createdAt": "2016-08-30T18:51:57.4030000Z",
+			"updatedBy": "MgrGLOBALEloquaInstance",
+			"updatedAt": "2016-08-30T18:58:19.4330000Z"
+		}
+	],
+	"totalResults": 29,
+	"limit": 3,
+	"offset": 0,
+	"count": 3,
+	"hasMore": true
+},
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
     { "id": 2, "body": "some comment", "postId": 1 }
