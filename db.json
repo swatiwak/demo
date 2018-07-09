@@ -38,6 +38,35 @@
 	"count": 3,
 	"hasMore": true
 },
+	
+  "getFields": {
+	"items": [
+		{
+		"name": "Email Address",
+		"internalName": "Email_Address1",
+		"dataType": "string",
+		"hasReadOnlyConstraint": false,
+		"hasNotNullConstraint": false,
+		"hasUniquenessConstraint": false,
+		"statement": "{{CustomObject[2].Field[99]}}",
+		"uri": "/customObjects/2/fields/99"
+		},
+		{
+		"name": "Address 1",
+		"internalName": "Address_11",
+		"dataType": "string",
+		"hasReadOnlyConstraint": false,
+		"hasNotNullConstraint": false,
+		"hasUniquenessConstraint": false,
+		"statement": "{{CustomObject[2].Field[100]}}",
+		"uri": "/customObjects/2/fields/100"
+		}],
+	"totalResults": 25,
+	"limit": 2,
+	"offset": 0,
+	"count": 2,
+	"hasMore": true
+	},
   "comments": [
     { "id": 1, "body": "some comment", "postId": 1 },
     { "id": 2, "body": "some comment", "postId": 1 }
