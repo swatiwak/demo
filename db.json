@@ -73,10 +73,11 @@
   ],
   "getMapping" : {
 	"fields": {
-		"key1" : "val1",
-		"key2" : "val2"
+		"secto" : "Email Address",
+		"count" : "Address 1"
 	},
-	"identifierFieldName" : "column_name",
+	"cdoName" : "Opportunity",
+	"identifierFieldName" : "count",
 	"name" : "Name for definition"
   },
   "colors": ["brown","orange","yellow","red","blue"]
