@@ -47,10 +47,6 @@
 	"count": 2,
 	"hasMore": true
 	},
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
   "getMapping" : {
 	"fields": {
 		"secto" : "Email Address",
@@ -59,6 +55,5 @@
 	"cdoName" : "Opportunity",
 	"identifierFieldName" : "count",
 	"name" : "Name for definition"
-  },
-  "colors": ["brown","orange","yellow","red","blue"]
+  }
 }
