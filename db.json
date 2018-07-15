@@ -7,6 +7,18 @@
 	"asset_type" : "customObjects"
 },
 	
+"CombinedAPI":{
+	"field_dict" : {
+		"Preferred Partner/Reseller Flag": "{{CustomObject[17].Field[238]}}",
+		"System Update By": "{{CustomObject[17].Field[248]}}"
+	},
+	"mapping_dict" : {"col_name" : {"cdo_field_name" : "", "cdo_field_statement" : "", "isunique": ""}},
+	"cdo_name" : "Transaction CDO",
+	"cdo_id" : "/customObjects/17",
+	"segment_name" : "segment",
+	"asset_type" : "customObjects"
+},
+	
   "getFields": {
 	"items": [
 		{
