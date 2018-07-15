@@ -46,5 +46,12 @@
 	"cdo_id" : "/customObjects/17",
 	"segment_name" : "segment",
 	"asset_type" : "customObjects"
+},
+"getCDO": {
+	"cdo_dict" : {
+		"Cisco Events Manager Users Changed Status": "/customObjects/14",
+		"Oracle Sales Cloud Leads": "/customObjects/2"
+		},
+	"asset_type" : "customObjects"
 }
 }
