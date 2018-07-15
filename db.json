@@ -1,11 +1,4 @@
 {
-  "getCDO": {
-	"cdo_dict" : {
-		"Cisco Events Manager Users Changed Status": "/customObjects/14",
-		"Oracle Sales Cloud Leads": "/customObjects/2"
-		},
-	"asset_type" : "customObjects"
-},
 	
   "getFields": {
 	"items": [
