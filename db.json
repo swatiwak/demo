@@ -41,7 +41,8 @@
 		"Preferred Partner/Reseller Flag": "{{CustomObject[17].Field[238]}}",
 		"System Update By": "{{CustomObject[17].Field[248]}}"
 	},
-	"mapping_dict" : {"col_name" : {"cdo_field_name" : "", "cdo_field_statement" : "", "isunique": ""}},
+	"mapping_dict" : [{"secto" : {"cdo_field_name" : "Email Address", "cdo_field_statement" : "", "isunique": ""}},
+			 {"count" : {"cdo_field_name" : "Address 1", "cdo_field_statement" : "", "isunique": "true"}}],
 	"cdo_name" : "Transaction CDO",
 	"cdo_id" : "/customObjects/17",
 	"segment_name" : "segment",
