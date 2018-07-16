@@ -43,7 +43,7 @@
 	},
 	"mapping_dict" : [{"secto" : {"cdo_field_name" : "Preferred Partner/Reseller Flag", "cdo_field_statement" : "", "isunique": false}},
 			  {"count":{"cdo_field_name" : "System Update By", "cdo_field_statement" : "", "isunique": true}}],
-	"cdo_name" : "Transaction CDO",
+	"cdo_name" : "Oracle Sales Cloud Leads",
 	"cdo_id" : "/customObjects/17",
 	"segment_name" : "segment",
 	"asset_type" : "customObjects"
