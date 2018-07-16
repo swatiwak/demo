@@ -29,8 +29,8 @@
 	},
   "getMapping" : {
 	"fields": {
-		"secto" : "Email Address",
-		"count" : "Address 1"
+		"secto" : "System Update By",
+		"count" : "Preferred Partner/Reseller Flag"
 	},
 	"cdoName" : "Opportunity",
 	"identifierFieldName" : "count",
