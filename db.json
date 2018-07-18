@@ -1,32 +1,12 @@
 {
   "getFields": {
-	"items": [
-		{
-		"name": "Email Address",
-		"internalName": "Email_Address1",
-		"dataType": "string",
-		"hasReadOnlyConstraint": false,
-		"hasNotNullConstraint": false,
-		"hasUniquenessConstraint": false,
-		"statement": "{{CustomObject[2].Field[99]}}",
-		"uri": "/customObjects/2/fields/99"
-		},
-		{
-		"name": "Address 1",
-		"internalName": "Address_11",
-		"dataType": "string",
-		"hasReadOnlyConstraint": false,
-		"hasNotNullConstraint": false,
-		"hasUniquenessConstraint": false,
-		"statement": "{{CustomObject[2].Field[100]}}",
-		"uri": "/customObjects/2/fields/100"
-		}],
-	"totalResults": 25,
-	"limit": 2,
-	"offset": 0,
-	"count": 2,
-	"hasMore": true
+	"field_dict": {
+		"Preferred Partner/Reseller Flag": "{{CustomObject[17].Field[238]}}",
+		"System Update By": "{{CustomObject[17].Field[248]}}"
 	},
+	"cdo_id":"Oracle Sales Cloud Leads",
+	"cdo_name": "/customObjects/17"
+},
   "getMapping" : {
 	"fields": {
 		"secto" : "System Update By",
